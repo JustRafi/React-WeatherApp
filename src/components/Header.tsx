@@ -7,7 +7,7 @@ interface HeaderProps{
 
 export default function Header({ headerInfo }: HeaderProps){
    return(
-      <header className="w-full justify-between items-center flex flex-row">
+      <header className="absolute top-0 left-0 w-full p-4 justify-between items-center flex flex-row">
          <Burger/>
          { headerInfo }
          <Search/>

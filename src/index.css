@@ -5,3 +5,9 @@
   font-family: Poppins;
   color: #363B64
 }
+
+.bg-blue-gradient {
+  background-image: linear-gradient(to right, #3C6FD1, #7CA9FF);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
