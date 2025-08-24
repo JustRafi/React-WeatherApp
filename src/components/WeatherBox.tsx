@@ -4,14 +4,15 @@ import LocationIcon from './icons/Location'
 import RainVolumeIcon from './icons/RainVolume'
 import WindIcon from './icons/Wind'
 import SunIcon from './icons/Sun'
+import Box from './Box'
 
 interface BoxProps {
    info: WeatherBoxData
 }
 
-export default function Box({ info }: BoxProps) {
+export default function WeatherBox({ info }: BoxProps) {
    return (
-      <div className="bg-blue-gradient px-6 py-8 rounded-[20px] text-white min-w-[95%] flex flex-col gap-3.5">
+      <Box className="!bg-blue-gradient px-6 py-8 text-white min-w-[95%] flex flex-col gap-3.5">
 
          {/* Weather info and icon */}
          <div className='flex flex-row'>
@@ -69,6 +70,6 @@ export default function Box({ info }: BoxProps) {
                </div>
 
          </div>
-      </div>
+      </Box>
    )
 }

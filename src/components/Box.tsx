@@ -7,7 +7,7 @@ interface BoxProps {
 
 export default function Box({ children, className }: BoxProps) {
    return (
-      <div className={`${className} bg-white p-5 rounded-[20px]`}>
+      <div className={`${className} bg-white rounded-[20px]`}>
          { children }
       </div>
    )
