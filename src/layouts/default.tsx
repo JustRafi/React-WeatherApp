@@ -8,7 +8,7 @@ interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
-    <div className="min-h-screen px-4 py-16">
+    <div className="min-h-screen py-16">
       <Header headerInfo='Warszawa, Polska'/>
       <main>{children}</main>
     </div>
