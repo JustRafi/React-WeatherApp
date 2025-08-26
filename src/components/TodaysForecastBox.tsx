@@ -18,6 +18,7 @@ export default function TodaysForecastBox({ info }: BoxProps) {
             </div>
             <MenuIcon/> 
          </div>
+         {/* Hourly forecast */}
          <div className="flex flex-row justify-between">
             <TodaysHourTile/>
             <TodaysHourTile/>

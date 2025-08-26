@@ -4,6 +4,7 @@ import WeatherBox from './components/WeatherBox';
 import { mockWeatherData } from './mock/data';
 import NewsSection from './components/NewsSection';
 import TodaysForecastSection from './components/TodaysForecastSection';
+import WeekForecastSection from './components/WeekForecastSection';
 
 const App: React.FC = () => {
 
@@ -28,6 +29,9 @@ const App: React.FC = () => {
       
       {/* Today's forecast section */}
       <TodaysForecastSection/>
+
+      {/* Week's forecast section */}
+      <WeekForecastSection/>
     </Layout>
   );
 };
