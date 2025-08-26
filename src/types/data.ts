@@ -7,3 +7,13 @@ export interface WeatherBoxData {
    uv: number,
    windSpeed: number
 }
+
+interface tempPerHour {
+   degrees: number,
+   hour: number
+}
+export interface TodaysForecastData {
+   weather: string,
+   date: string,
+   temps: tempPerHour[]
+}

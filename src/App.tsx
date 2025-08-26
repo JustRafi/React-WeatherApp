@@ -2,7 +2,8 @@ import React from 'react';
 import Layout from './layouts/default';
 import WeatherBox from './components/WeatherBox';
 import { mockWeatherData } from './mock/data';
-import NewsTile from './components/NewsTile';
+import NewsSection from './components/NewsSection';
+import TodaysForecastSection from './components/TodaysForecastSection';
 
 const App: React.FC = () => {
 
@@ -22,8 +23,11 @@ const App: React.FC = () => {
         />
       </div>
 
-      {/* News - TO DO */}
-      <NewsTile/>
+      {/* News section */}
+      <NewsSection/>
+      
+      {/* Today's forecast section */}
+      <TodaysForecastSection/>
     </Layout>
   );
 };

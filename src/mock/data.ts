@@ -1,4 +1,4 @@
-import type { WeatherBoxData } from "../types/data";
+import type { TodaysForecastData, WeatherBoxData } from "../types/data";
 
 export const mockWeatherData: WeatherBoxData[] = [
   {
@@ -47,3 +47,34 @@ export const mockWeatherData: WeatherBoxData[] = [
     windSpeed: 20,
   },
 ];
+
+export const mockTodaysData: TodaysForecastData = {
+    weather: "Partly Cloudy",
+    date: "August, 10th 2020",
+    temps: [
+      { hour: 0, degrees: 22 },
+      { hour: 1, degrees: 21 },
+      { hour: 2, degrees: 21 },
+      { hour: 3, degrees: 20 },
+      { hour: 4, degrees: 20 },
+      { hour: 5, degrees: 19 },
+      { hour: 6, degrees: 19 },
+      { hour: 7, degrees: 20 },
+      { hour: 8, degrees: 22 },
+      { hour: 9, degrees: 24 },
+      { hour: 10, degrees: 26 },
+      { hour: 11, degrees: 27 },
+      { hour: 12, degrees: 28 },
+      { hour: 13, degrees: 29 },
+      { hour: 14, degrees: 30 },
+      { hour: 15, degrees: 30 },
+      { hour: 16, degrees: 29 },
+      { hour: 17, degrees: 28 },
+      { hour: 18, degrees: 27 },
+      { hour: 19, degrees: 25 },
+      { hour: 20, degrees: 24 },
+      { hour: 21, degrees: 23 },
+      { hour: 22, degrees: 22 },
+      { hour: 23, degrees: 22 },
+    ],
+  }

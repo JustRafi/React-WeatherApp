@@ -12,7 +12,7 @@ interface BoxProps {
 
 export default function WeatherBox({ info }: BoxProps) {
    return (
-      <Box className="!bg-blue-gradient px-6 py-8 text-white min-w-[95%] flex flex-col gap-3.5">
+      <Box className="bg-blue-gradient px-6 py-8 text-white min-w-[95%] flex flex-col gap-3.5">
 
          {/* Weather info and icon */}
          <div className='flex flex-row'>
